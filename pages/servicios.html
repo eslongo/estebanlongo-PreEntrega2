@@ -5,30 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>LONGO / Servicios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="icon" href="/img/logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
-    <a href="../index.html"><h1>LONGO</h1></a>
-        <nav>   
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./mi-cuenta.html">Mi cuenta</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg menu-color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="/img/logo.png" alt="Logo de la empresa "></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./productos.html">Herramientas</a></li>
+                      <li><a class="dropdown-item" href="./productos.html">Muebles</a></li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Nosotros
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./contacto.html"> Contactanos</a></li>
+                        <li><a class="dropdown-item" href="./servicios.html">Servicios</a></li>
+                      </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="boton" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section class="main-servicios">
             <h2>Nuestros servicios.</h2>
             <h3>Todo lo que puede saber acerca de nuestros servicios</h3>
             <h2>¿Como hacemos nuestros repartos?</h2>
-            <p>Distribuimos nuestra mercaderia a todo el país, con la mejor de la calidad y atencion al cliente.</p>
+            <h2>Distribuimos nuestra mercaderia a todo el país, con la mejor de la calidad y atencion al cliente.</h2>
+            <p>Conoce la localidad de nuestros productos.</p>
+            <a class="boton" href="./pages/nosotros.html">Ver más</a>
         </section>
         <section>
-            <a href="#">Conoce la localidad de nuestros productos.</a>
+            <div class="contenedor-servicios">
+
+            </div>
         </section>
     </main>
     <footer id="footer">
@@ -41,5 +72,6 @@
                 <img src="../img/codigo-qr.png" alt="">
             </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

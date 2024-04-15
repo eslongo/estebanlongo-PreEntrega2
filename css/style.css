@@ -157,9 +157,6 @@ body{
 
 }
 
-.ferreteria div:hover{
-    background-color: rgba(216, 182, 33, 0.986);
-}
 .productos a{
     color: white;
     text-decoration: none;
@@ -390,22 +387,18 @@ h2{
 
 
 .productos-main{
-    background-image: url(/img/muebles-madera-natural-5.jpg);
-    width: 100%;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 .productos-main h2{
     padding-top: 100px;
-    color: white;
+    color: black;
     font-size: 50px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .productos-main h3{
-    color: white;
+    color: black;
     font-size: 40px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -468,10 +461,22 @@ div p,h3{
 
 /**-----MEDIA QUERYS-----**/
 
+@media screen and (max-width:1280px){
+    .productos{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
-@media screen and (max-width:1288px){
-    .hero img{
-        width: 100%;
+@media screen and (max-width:960px){
+    .bienvenidos h2{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .hero{
+        font-size: 40px;
     }
 }
 
@@ -493,6 +498,13 @@ div p,h3{
     }
 }
 
+@media screen and (max-width:720px){
+    .bienvenidos h2{
+        font-size: 35px;
+    }
+    
+}
+
 @media screen and (max-width:500px){
     .container-img{
         width: 90%;
@@ -501,9 +513,6 @@ div p,h3{
     .container-img .box-img img{
         height: 200px;
     }
-}
-
-@media screen and (max-width:674px){
 }
 
 @media screen and (max-width:538px){
@@ -522,8 +531,4 @@ div p,h3{
         margin: 0;
         text-align: center;
     }
-}
-
-@media screen and (max-width:400px){
-
 }
