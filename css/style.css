@@ -306,13 +306,18 @@ h2{
 
 /* #region .CONTACTATE*/
 .contactate{
-    color: white;
+    color: black;
     text-align: center;
     padding: 10vh;
 }
 
+.contactate h2{
+    color: black;
+}
+
 .contactate p{
     margin: 30px;
+    color: black;
 }
 
 .contactate a{
@@ -321,10 +326,13 @@ h2{
     background-color: rgb(53, 53, 53);
     font-size: 25px;
     font-weight: bold;
-    
     padding: 10px;
     text-transform: uppercase;
-    
+}
+
+.imagenes-sucursal{
+    display: flex;
+    justify-content: center;
 }
 
 /* #endregion .CONTACTATE*/
@@ -349,7 +357,7 @@ h2{
 
 .nosotros-section{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    
 }
 
 /* #endregion NOSOTROS */
