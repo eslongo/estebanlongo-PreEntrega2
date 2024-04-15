@@ -104,6 +104,12 @@ body{
 
 /*----------INDEX-------------*/
 
+
+.carousel-item img{
+    width: 100%;
+    height: 800px;
+}
+
 /* #region BIENVENIDOS*/
 .bienvenidos{
     background-color:white;
@@ -114,7 +120,7 @@ body{
 .bienvenidos h2{
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline;
     }
@@ -382,21 +388,25 @@ h2{
 /**----PRODUCTOS----**/
 /* #region TOFT*/
 
+
 .productos-main{
+    background-image: url(/img/muebles-madera-natural-5.jpg);
     width: 100%;
-    height: 800px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .productos-main h2{
     padding-top: 100px;
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-size: 50px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .productos-main h3{
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 40px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
