@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+/*---RESET---*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/**-----HEADER-----*/
+
+
+.menu-color{
+    background-color: rgb(105, 77, 58);
+    background-color: rgb(255, 255, 255);;
+   
+}
+
+nav img{
+    width: 80px;
+    height: 80px;
+}
+
+.boton{
+    background-color:white;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 7px;   
+    border: 1px solid black;
+}
+
+.boton:hover{
+    background-color: rgb(129, 90, 64);
+    color: white;
+}
+
+
+/**----BODY----**/
+
+body{
+    background-color: rgb(26, 25, 25);
+}
+
+
+/**-------------MAIN------------*/
+/* #region HERO */
+.hero{
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/carpinteriappp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+
+.hero h2{
+    color: white;
+    font-size: 50px;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.hero p{
+    color: white;
+    font-size: 30px;
+}
+
+.hero a{
+    font-family:"Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 160px;
+    padding: 13px;
+    background: rgba(112, 49, 7, 0.349);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba (0,0,0, 0.1);
+}
+
+
+.hero a{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.hero a:hover{
+    background: rgba(206, 108, 43, 0.349);
+}
+/* #endregion HERO */
+
+
+/*----------INDEX-------------*/
+
+/* #region BIENVENIDOS*/
+.bienvenidos{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenidos h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    }
+
+.bienvenidos p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.bienvenidos img{
+    width: 400px;
+    height: 600px;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+}
+
+.productos div{
+    background-color: rgb(207, 204, 204);
+    width: 540px;
+    height: 550px;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+.productos div:hover{
+    background-color: rgb(163, 160, 160);
+
+}
+
+.ferreteria div:hover{
+    background-color: rgba(216, 182, 33, 0.986);
+}
+.productos a{
+    color: white;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 78);
+}
+
+.productos h3{
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+}
+
+
+.productos div img{
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+/**NOSOTROS INDEX**/
+
+.nosotros{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+
+/* #endregion BIENVENIDOS*/
+
+/**------NOSOTROS-INDEX------**/
+
+.nosotros-index{
+    background-color: white;
+}
+
+.container-img{
+    width: 100%;
+    max-width: 1100px;
+    margin:auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+}
+
+.container-img .box-img figure{
+    width: 100%;
+    height: 100%;
+}
+
+.container-img .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-img .box-img:nth-child(1){
+    grid-column: span 2;    
+}
+
+.container-img .box-img:nth-child(4){
+    grid-row-start: span 2;
+}
+.nosotros-index h2{
+    color: black;
+    justify-content: end;
+}
+
+.nosotros-index p{
+    color: black;
+}
+
+
+
+/**------------------FOOTER------------------*/
+/* #region FOOTER*/
+footer{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer h2{
+    color: rgb(194, 186, 186);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-size: 15px;
+}
+
+footer p{
+    color: rgb(194, 186, 186);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-weight: 800;
+}
+
+footer a{
+    text-decoration: none;
+}
+footer div img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:flex-end; 
+    display: inline-block;  
+}
+/* #endregion FOOTER */
+
+/**-------CONTACTO.HTML-------**/
+
+/* #region .CONTACTO*/
+.contacto{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/bosque_contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+h2{
+    color: white;
+    font-size: 50px;    
+    text-align: center;
+}
+/* #endregion .CONTACTO*/
+
+/* #region .MAPA*/
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+/* #endregion .MAPA*/
+
+/* #region .CONTACTATE*/
+.contactate{
+    color: white;
+    text-align: center;
+    padding: 10vh;
+}
+
+.contactate p{
+    margin: 30px;
+}
+
+.contactate a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(53, 53, 53);
+    font-size: 25px;
+    font-weight: bold;
+    
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+
+/* #endregion .CONTACTATE*/
+
+/* #region .ETIQUETAS*/
+.etiquetas-redes{
+    margin: 30px;
+}
+/* #endregion .ETIQUETAS*/
+
+/**----NOSOTROS-----**/
+/* #region NOSOTROS*/
+.nosotros-section{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/oficina_nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nosotros-section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* #endregion NOSOTROS */
+
+/* #region .REDES*/
+.redes-nosotros img{
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20vh;
+    margin: 10vh;
+}
+
+.contenedor a{
+    display:flex;
+    display: inline;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+/* #endregion .REDES*/
+
+/**----PRODUCTOS----**/
+/* #region TOFT*/
+
+.productos-main{
+    width: 100%;
+    height: 800px;
+}
+.productos-main h2{
+    padding-top: 100px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.productos-main h3{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div p,h3{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+
+
+/**----SERVICIOS----*/
+
+.main-servicios{
+    background-image: url(../img/oficina_servicios.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-servicios p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+/**-----MI-CUENTA.HTML----**/
+
+.mi-cuenta{
+    background-image: url(../img/fondo-mi-cuenta.jpg);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.form{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
+}
+
+.form__title{
+    font-size: 2rem;
+}
+
+
+
+
+
+/**-----MEDIA QUERYS-----**/
+
+
+@media screen and (max-width:1288px){
+    .hero img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:859px){
+    header{
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width:800px){
+    .container-img{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-rows: 200px;
+    }
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 1;
+    }
+}
+
+@media screen and (max-width:500px){
+    .container-img{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img .box-img img{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:674px){
+}
+
+@media screen and (max-width:538px){
+    header{
+        position: static;
+    }
+
+    header h1{
+        font-size: 50px;
+        margin: 5px;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:400px){
+
+}
