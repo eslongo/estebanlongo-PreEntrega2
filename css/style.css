@@ -571,14 +571,6 @@ div p,h3{
     
 }
 
-@media screen and (max-width:540px){
-    .productos{
-        background-color: ;
-        height: 400px;
-        width: 400px;
-    }
-}
-
 @media screen and (max-width:500px){
     .container-img-productos{
         width: 90%;
