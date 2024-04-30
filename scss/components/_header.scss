@@ -1,0 +1,27 @@
+header{
+    .menu-color{
+        background-color: rgb(105, 77, 58);
+        background-color: rgb(255, 255, 255);;
+    }
+    nav{
+        width: 80px;
+        height: 80px;
+    }
+    img{
+        width: 80px;
+        height: 80px;
+    }
+        .boton{
+            background-color:white;
+            color: black;
+            font-size: 18px;
+            border-radius: 5px;
+            padding: 7px;   
+            border: 1px solid black;
+            &:hover{
+                background-color: rgb(129, 90, 64);
+                color: white;
+            }
+            
+        }
+    }

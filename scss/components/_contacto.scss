@@ -1,0 +1,51 @@
+.contacto{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/bosque_contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    h2{
+        color: white;
+        font-size: 50px;    
+        text-align: center;
+    }
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+.contactate{
+    color: black;
+    text-align: center;
+    padding: 10vh;
+    h2{
+        color: black;
+    }
+    p{
+        margin: 30px;
+        color: black;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        background-color: rgb(53, 53, 53);
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+}
+.imagenes-sucursal{
+    display: flex;
+    justify-content: center;
+}
+.etiquetas-redes{
+    margin: 30px;
+}
