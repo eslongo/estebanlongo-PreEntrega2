@@ -72,6 +72,7 @@ main a {
   margin-top: 30px;
   display: inline-block; }
   main a:hover {
+    color: white;
     background: rgba(206, 108, 43, 0.349); }
 
 .carousel-item img {
@@ -329,6 +330,10 @@ footer {
 @media screen and (max-width: 960px) {
   .bienvenidos h2 {
     font-size: 45px; } }
+
+@media screen and (max-width: 991px) {
+  nav img {
+    display: none; } }
 
 @media screen and (max-width: 859px) {
   header {
