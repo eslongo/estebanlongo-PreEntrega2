@@ -161,6 +161,13 @@ main a {
   .container-img .container-img .box-img:nth-child(4) {
     grid-row-start: span 2; }
 
+/*-----CARDS-INDEX-----*/
+.card-body h5 {
+  color: black; }
+
+.card-body p {
+  color: black; }
+
 footer {
   background-color: black;
   display: flex;
