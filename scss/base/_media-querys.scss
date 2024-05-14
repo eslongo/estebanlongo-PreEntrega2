@@ -20,6 +20,30 @@
         img{
             display: none;
         }
+        .navbar-collapse{
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            border-color: gray;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        }
+    }
+
+@media screen and (max-width:991px){
+    .contacto{
+        h2{
+            font-size:20px
+        }
+    }
+    
+}
+
+@media screen and (max-width:603px){
+    .mapa{
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -77,8 +101,23 @@
         height: 200px;
     }
 }
-
-
+@media screen and (max-width:484px){
+    .hero p{
+        font-size:22px;;
+        
+    }
+}
+@media screen and (max-width:430px) {
+    .hero h2{
+        font-size: 34px;
+    }
+    
+}
+@media screen and (max-width:350px){
+    .hero p{
+        font-size:20px;
+    }
+}
 /*----MEDIA QUERYS-CONTACTOS-HTML.-----*/
 
 // @media screen and (max-width:x) {

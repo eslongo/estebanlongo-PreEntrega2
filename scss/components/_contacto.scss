@@ -20,6 +20,10 @@
 .mapa{
     display: flex;
     justify-content: center;
+    iframe{
+        width: 600px;
+        height: 600px;
+    }
 }
 .contactate{
     color: black;
@@ -40,8 +44,8 @@
         font-weight: bold;
         padding: 10px;
         text-transform: uppercase;
+        }
     }
-}
 .imagenes-sucursal{
     display: flex;
     justify-content: center;
