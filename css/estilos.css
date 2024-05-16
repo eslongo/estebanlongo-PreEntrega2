@@ -259,6 +259,8 @@ footer {
 .redes-nosotros img {
   width: 100px;
   height: 100px; }
+  .redes-nosotros img h2 {
+    font-size: 50px; }
 
 .contenedor {
   display: flex;
@@ -416,4 +418,9 @@ footer {
   .hero p {
     font-size: 20px; } }
 
-/*----MEDIA QUERYS-CONTACTOS-HTML.-----*/
+/**MEDIA QUERYS NOSOTROS.HTML**/
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 50px; }
+  p {
+    font-size: 50px; } }

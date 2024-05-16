@@ -118,8 +118,13 @@
         font-size:20px;
     }
 }
-/*----MEDIA QUERYS-CONTACTOS-HTML.-----*/
 
-// @media screen and (max-width:x) {
-//     .
-// }
+/**MEDIA QUERYS NOSOTROS.HTML**/
+@media screen and (max-width:700px) {
+    h2{
+        font-size: 50px;
+    }
+    p{
+        font-size: 50px;
+    }
+}
