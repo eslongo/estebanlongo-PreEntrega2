@@ -321,22 +321,81 @@ footer {
     text-align: center;
     font-size: 23px; }
 
-.main-servicios {
-  background-image: url(../img/oficina_servicios.jpg);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.fondo-servicios {
+  background-image: url(/img/background-servicios.jpg);
   width: 100%;
-  height: 800px;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .main-servicios a {
+  height: 850px; }
+  .fondo-servicios h2 {
+    text-align: center;
+    font-size: 50px;
     color: white;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center; }
+    font-weight: 400; }
+  .fondo-servicios p {
+    text-align: center;
+    color: white;
+    font-size: 20px; }
+
+.form-register {
+  width: 400px;
+  background: #2f353b;
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
+
+.form-register h4 {
+  font-size: 27px;
+  margin-bottom: 20px; }
+
+.controls {
+  width: 100%;
+  background: #4a4c4e;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #17191b;
+  font-size: 18px; }
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px; }
+
+.form-register a {
+  color: white;
+  text-decoration: none; }
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline; }
+
+.form-register .botons {
+  width: 100%;
+  background: #686868;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 18px 0;
+  font-size: 16px; }
+
+.form-register .botons:hover {
+  background: #868686; }
 
 @media screen and (max-width: 1280px) {
   .productos {
     flex-direction: column;
     align-items: center; } }
+
+@media screen and (max-width: 995px) {
+  .card-text p {
+    font-size: 30px; } }
 
 @media screen and (max-width: 991px) {
   .hero {
