@@ -412,7 +412,7 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   overflow-x: hidden;
-  padding: 5rem; }
+  padding: 5rem 0; }
 
 .row .imgWrapper {
   overflow: hidden; }
@@ -472,7 +472,10 @@ footer {
   color: #fff;
   padding: 15px 40px;
   letter-spacing: 1px;
-  user-select: none; }
+  user-select: none;
+  border-radius: 5px; }
+  .row .contentWrapper a:hover {
+    background: #383f47c2; }
 
 @media screen and (max-width: 1280px) {
   .productos {
@@ -569,3 +572,52 @@ footer {
     font-size: 50px; }
   p {
     font-size: 50px; } }
+
+/**MEDIA QUERYS TERMINOS Y CONDICIONES.HTML**/
+@media screen and (max-width: 991px) {
+  .row {
+    grid-template-columns: 1fr;
+    grid-gap: 50px; } }
+
+@media screen and (max-width: 768px) {
+  .row {
+    width: 90%; }
+  .row, .contentWrapper h2 {
+    font-size: 30px;
+    padding-bottom: 25px; }
+  .row .contentWrapper p {
+    line-height: 24px; }
+  .row .contentWrapper a {
+    font-size: 15px;
+    padding: 10px 20px; } }
+
+@media screen and (max-width: 575px) {
+  .row .contentWrapper span.textWrapper {
+    font-size: 18px; }
+  .row, .contentWrapper h2 {
+    font-size: 25px; }
+  .row .contentWrapper p {
+    font-size: 15px;
+    line-height: 22px; }
+  .row .contentWrapper a {
+    font-size: 15px;
+    padding: 10px 20px; } }
+
+@media screen and (max-width: 480px) {
+  .row .contentWrapper span.textWrapper {
+    font-size: 18px; }
+  .row .contentWrapper h2 {
+    font-size: 33px; }
+  .row .contentWrapper p {
+    font-size: 15px;
+    line-height: 22px; }
+  .row .contentWrapper a {
+    font-size: 11px;
+    padding: 10px 20px; } }
+
+@media screen and (max-width: 430px) {
+  .row .contentWrapper h2 {
+    font-size: 29px; }
+  .row .contentWrapper p {
+    font-size: 13px;
+    line-height: 22px; } }
