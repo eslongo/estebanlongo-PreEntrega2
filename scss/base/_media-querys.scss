@@ -206,3 +206,18 @@
     
     }
 }
+
+@media screen and (max-width: 386px){
+    .row .contentWrapper p{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 7px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .row .contentWrapper p{
+        padding-left: 13px;
+    }
+}
+

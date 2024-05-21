@@ -88,6 +88,7 @@ main .hero a {
     font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
   .bienvenidos p {
+    font-size: 30px;
     color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif; }
@@ -162,14 +163,15 @@ main .hero a {
     grid-row-start: span 2; }
 
 /*-----CARDS-INDEX-----*/
-.card-body h5 {
-  color: black; }
-
-.card-body p {
-  color: black; }
-
-.card-body:hover {
-  background-color: #dfdfdf; }
+.card-body {
+  align-items: center;
+  justify-content: center; }
+  .card-body h5 {
+    color: black; }
+  .card-body p {
+    color: black; }
+  .card-body:hover {
+    background-color: #dfdfdf; }
 
 footer {
   background-color: black;
@@ -621,3 +623,13 @@ footer {
   .row .contentWrapper p {
     font-size: 13px;
     line-height: 22px; } }
+
+@media screen and (max-width: 386px) {
+  .row .contentWrapper p {
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 7px; } }
+
+@media screen and (max-width: 370px) {
+  .row .contentWrapper p {
+    padding-left: 13px; } }
