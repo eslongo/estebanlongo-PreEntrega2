@@ -1,55 +1,62 @@
-.contacto{
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main-contacto{
+    background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03e9f5 30%, #03e9f5 100% );
     width: 100%;
-    height: 800px;
-    background-image: url(../img/bosque_contacto.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    height: 850px;
+}
+
+.contactanos{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contactanos .title{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10vh;
+    font-size: 2em;
     h2{
         color: white;
-        font-size: 50px;    
-        text-align: center;
+        font-weight: 500;
     }
 }
-.mapa{
-    display: flex;
-    justify-content: center;
-    iframe{
-        width: 600px;
-        height: 600px;
-    }
+
+.form{
+    grid-area: form;
 }
-.contactate{
-    color: black;
-    text-align: center;
-    padding: 10vh;
-    h2{
-        color: black;
-    }
-    p{
-        margin: 30px;
-        color: black;
-    }
-    a{
-        color: white;
-        text-decoration: none;
-        background-color: rgb(53, 53, 53);
-        font-size: 25px;
-        font-weight: bold;
-        padding: 10px;
-        text-transform: uppercase;
-        }
-    }
-.imagenes-sucursal{
-    display: flex;
-    justify-content: center;
+.info{
+    grid-area: info;
 }
-.etiquetas-redes{
-    margin: 30px;
+.map{
+    grid-area: map;
+}
+.contact{
+    padding: 40px;
+    background: white;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+}
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+
+}
+
+.contact h3{
+    color: #0e3959;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }
