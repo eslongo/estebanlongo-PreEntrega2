@@ -221,3 +221,19 @@
     }
 }
 
+/*--MEDIA QUERY HERRAMIENTAS.SCSS--*/
+@media screen and (max-width: 10000px){
+    .content{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 750px){
+    .content{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 701px){
+    .content{
+        width: 90%;
+    }
+}
