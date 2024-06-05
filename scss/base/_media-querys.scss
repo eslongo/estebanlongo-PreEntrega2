@@ -237,3 +237,36 @@
         width: 90%;
     }
 }
+
+/**--MEDIA QUERY CONTACTO.SCSS--**/
+@media (max-width: 991px){
+    .contactanos{
+        padding: 20px;
+    }
+    .box{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form"
+        "info"
+        "map";
+    }
+    .map{
+        min-height: 300px;
+    }
+    .formBox .row50{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+}
+.inputBox{
+    width: 100%;
+}
+.contact{
+    padding: 30px;
+}
+.map{
+    min-height: 300px;
+    padding: 30px;
+}
